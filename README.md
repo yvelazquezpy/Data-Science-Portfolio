@@ -5,6 +5,63 @@ Please contact me on [Linkedin](https://www.linkedin.com/in/yamil-velazquez92/) 
 
 ## Projects:
 
+###  [CIFAR Image Classification using CNN and Keras](https://github.com/Lekamaster/Data-Science-Portfolio/tree/main/CNN_CIFAR)
+<b>Objective</b>: 
+
+The objective of this project was to build and train a Convolutional Neural Network (CNN) to classify images from the CIFAR dataset, and to evaluate its performance in terms of accuracy and learning behavior.
+
+<b>Key Steps</b>
+
+<b>*Data Collection</b>
+
+Imported the required libraries and loaded the CIFAR image dataset, which consists of small RGB images belonging to multiple object classes.
+
+<b>*Data Preprocessing</b>
+
+- Normalized image pixel values to improve model convergence
+
+- Prepared labels in the appropriate format for multi-class classification
+
+- Split the data into training and test sets
+
+<b>*Model Definition</b>
+
+- Designed a Convolutional Neural Network (CNN) architecture composed of:
+
+- Convolutional layers with ReLU activation
+
+- MaxPooling layers for spatial dimensionality reduction
+
+- Fully connected (Dense) layers
+
+- Dropout layers to reduce overfitting
+
+- Softmax output layer for multi-class classification
+
+<b>*Model Compilation</b>
+
+- Loss function: Categorical Crossentropy
+
+- Optimizer: Adam
+
+- Metric: Accuracy
+
+- A model summary was generated to inspect the architecture and parameter count.
+
+<b>*Model Training</b>
+
+Trained the CNN model using the training dataset over a defined number of epochs, monitoring both training and validation performance.
+
+<b>*Evaluation and Analysis</b>
+
+- Evaluated the model using the test dataset
+
+- Visualized training and validation accuracy and loss curves
+
+- Analyzed the model’s ability to learn relevant visual features from CIFAR images
+
+
+
 ###  [Fifa 2022 Tweets Sentiment Analysis](https://github.com/Lekamaster/Data-Science-Portfolio/tree/main/FIFA-Sentiment-Analysis)
 <b>Objective</b>: 
 
@@ -40,3 +97,4 @@ Utilized Machine Learning techniques to perform sentiment prediction on the twee
 -Xgboost
 
 -Random Forest
+
